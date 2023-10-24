@@ -1,0 +1,52 @@
+.card-slider-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow-x: hidden;
+    padding-top: 3rem;
+}
+
+.card-slider-container h1 {
+    margin-bottom: 1rem;
+    margin-left: 2.5rem;
+}
+
+.card-slider-container .wrapper .slider {
+    width: max-content;
+    transform: translateX(0px);
+    transition: .3s ease-in-out;
+    margin-left: 2.5rem;
+}
+
+.card-slider-container .wrapper .slider-action {
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    height: 100%;
+    width: max-content;
+    transition: .3s ease-in-out;
+    align-items: center;
+}
+
+.card-slider-container .wrapper .slider-action svg {
+    font-size: 2em;
+    font-weight: bolder;
+    transition: .4s;
+    margin-top: 5rem;
+}
+
+.card-slider-container .wrapper .slider-action svg:hover {
+    color: red;
+    cursor: pointer;
+}
+.card-slider-container .wrapper .none{
+    display: none;
+}
+
+.card-slider-container .wrapper .left {
+    left: 0;
+}
+
+.card-slider-container .wrapper .right {
+    right: 0;
+}

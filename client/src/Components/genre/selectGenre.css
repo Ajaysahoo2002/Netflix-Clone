@@ -1,0 +1,11 @@
+.genre-container{
+    margin-left: 2rem;
+}
+.genre-container select{
+    font-size: large;
+    padding: .3rem .5rem;
+    border-radius: .3rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

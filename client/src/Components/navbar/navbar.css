@@ -1,0 +1,110 @@
+.nav {
+    height: 6.5rem;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 2;
+    padding: 2rem 4rem;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+    color: white;
+    background-color: black;
+    display: flex;
+}
+
+.nav.left {
+    gap: 2rem;
+}
+
+.nav .flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav img {
+    height: 5em;
+}
+
+.nav .left ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav .left ul li {
+    margin: 0 1.5rem;
+    padding: 0 .5rem;
+    transition: .3s ease-in-out;
+}
+
+.nav .left ul li:hover {
+    cursor: pointer;
+    color: red;
+}
+.nav .left ul li:active{
+    color: red;
+}
+
+/* right navbar */
+
+.right {
+    gap: 1rem;
+}
+
+.right button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.right button &:focus {
+    outline: none;
+}
+
+.right button svg {
+    color: red;
+    font-size: 1.2em;
+}
+
+.right .search {
+    display: flex;
+    gap: .4rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem;
+    padding-left: .5rem;
+}
+
+.right .search button {
+    background-color: transparent;
+}
+
+.right .search svg {
+    color: white;
+}
+
+.right input {
+    width: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s ease-in-out;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.right input &:focus {
+    outline: none;
+}
+
+.show-search {
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: .5rem;
+}
+
+.show-search input {
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    padding: .5rem;
+}

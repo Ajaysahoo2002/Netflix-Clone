@@ -1,0 +1,49 @@
+/* Footer Section */
+.footer {
+    background-color:black;
+    padding: 2rem 15%;
+    position: relative;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    color: #757575;
+    font-size: small;
+    line-height: 2.5rem;
+}
+.footer h3{
+    font-weight: normal;
+}
+
+.footer .col{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 0 1rem;
+    font-size: smaller;
+}
+.footer .row a {
+    text-decoration: none;
+    color: #757575;  
+    transition: .3s ease-in-out;
+}
+.footer a:hover {
+    text-decoration: underline;
+    color: red;
+}
+.footer .language{
+    padding:.2rem .5rem ;
+    border: 1px solid grey;
+    width: fit-content;
+    border-radius: .1rem;
+    margin-top: 1rem;
+}
+.footer select{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border-color: transparent;
+    padding:0 .3rem ;
+}
+.footer select option{
+    background-color: black;
+}

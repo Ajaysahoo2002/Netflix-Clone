@@ -1,0 +1,9 @@
+.data {
+    background-color: black;
+    color: white;
+}
+
+.data .not-available {
+    text-align: center;
+    margin-top: 4rem;
+}

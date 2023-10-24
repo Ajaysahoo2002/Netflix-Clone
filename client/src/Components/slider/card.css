@@ -1,0 +1,74 @@
+.card-container{
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+    width: 230px;
+    margin: 0 .3rem;
+}
+.card-container img{
+    border-radius: .2rem;
+    width: 100%;
+    z-index: 1;
+    height: fit-content;
+}
+.card-container img:hover{
+    position: absolute;
+    z-index:1;
+    box-shadow: rgba(0, 0, 0, .75) 0 3px 10px;
+    transition: .3s ease-in-out;
+}
+.hover svg{
+    color: white;
+}
+.hover{
+    margin: 0;
+    z-index: 99;
+    height: min-content;
+    width: 15vw;
+    position: absolute;
+    top: -12vh;
+    left: 0;
+    border-radius: .3rem;
+    box-shadow:0 0 20px  rgba(60, 61, 60, 0.5);
+    background-color: #131212;
+}
+.hover .image-video-container{
+    position: relative;
+    height: 130px;
+    border-radius: .3rem;
+}
+.hover .image-video-container img{
+    display: none;
+}
+
+.hover .image-video-container video{
+    width: 100%;
+    height: 130px;
+    z-index: 90;
+    border-radius: .3rem;
+} 
+.hover .info-container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding:0.3rem .5rem;
+}
+.hover .info-container h3{
+    font-size: .8em;
+    margin-bottom: .5rem;
+}
+.hover .info-container .flex{
+    justify-content: space-between;
+}
+.hover .info-container .controls{
+    display: flex;
+    gap: .6rem;
+}
+.hover .info-container .controls svg{
+    font-size: 1em;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.hover .info-container svg:hover{
+    color: red;
+}
