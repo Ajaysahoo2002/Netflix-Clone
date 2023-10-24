@@ -9,7 +9,7 @@ dotenv.config({ path: './config.env' });
 DB = process.env.DATABASE;
 PORT = process.env.PORT || 5000;
 
-// for deploying the project in Heroku
+// for deploying the project
 if(process.env.NODE_ENV == "production"){
     app.use(express.static("client/build"));
 }
