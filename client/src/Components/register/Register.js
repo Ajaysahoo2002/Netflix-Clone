@@ -90,6 +90,7 @@ const Register = () => {
                                             <option value="Hindi">Hindi</option>
                                         </select>
                                     </div>
+                                    <NavLink to="/home"><button>Home</button></NavLink>
                                     <NavLink to="/login"><button>Sign In</button></NavLink>
                                 </div>
                             </div>
